@@ -3,16 +3,6 @@
 </h1>
 
 <p align="center">
-   <h2 align="center">
-    DiCria-UI
-    </h2>
-</p>
-
-<p align="center">
-DiCria-UI Web Component Library
-</p>
-
-<p align="center">
  <img alt="Repository size" src="https://img.shields.io/github/repo-size/kayoennrique/DiCria-UI?color=4e5acf">
 
   <a aria-label="Last Commit" href="https://github.com/kayoennrique/DiCria-UI/commits/main">
