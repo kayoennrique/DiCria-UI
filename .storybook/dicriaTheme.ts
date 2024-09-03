@@ -4,6 +4,6 @@ export default create({
     base: "dark",
     brandTitle: "DiCria-UI",
     brandUrl: "https://github.com/kayoennrique/DiCria-UI",
-    brandImage: "./artwork.jpg",
+    brandImage: "dicria-ui-logo.png",
     brandTarget: "_self",
 });

@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="DiCria-UI" title="#designsystem-dicria-ui" src="https://raw.githubusercontent.com/kayoennrique/DiCria-UI/main/artwork.jpg" height="150px" />
+  <img alt="DiCria-UI" title="#designsystem-dicria-ui" src="https://raw.githubusercontent.com/kayoennrique/DiCria-UI/main/dicria-ui-logo.png"/>
 </h1>
 
 <p align="center">
@@ -13,10 +13,10 @@ DiCria-UI Web Component Library
 </p>
 
 <p align="center">
- <img alt="Repository size" src="https://img.shields.io/github/repo-size/kayoennrique/DiCria-UI-1?color=4e5acf">
+ <img alt="Repository size" src="https://img.shields.io/github/repo-size/kayoennrique/DiCria-UI?color=4e5acf">
 
-  <a aria-label="Last Commit" href="https://github.com/kayoennrique/DiCria-UI-1/commits/main">
-  <img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/kayoennrique/DiCria-UI-1?color=4e5acf">
+  <a aria-label="Last Commit" href="https://github.com/kayoennrique/DiCria-UI/commits/main">
+  <img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/kayoennrique/DiCria-UI?color=4e5acf">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-4e5acf">
   </a>
 </p>
@@ -43,10 +43,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ```bash
 # Using  npm
-npm i ui-dicria
+npm i dicria-ui
 
 # Using  yarn
-yarn add ui-dicria
+yarn add dicria-ui
 ```
 
 ## 📚 What dependencies are used in this library?
@@ -81,7 +81,7 @@ npm install
 
 ## 📝 Documentation
 
-To check the documentation click [here](https://di-cria-ui-1.vercel.app/?path=/docs/molecules-about--docs)
+To check the documentation click [here](https://dicria-ui.vercel.app/?path=/docs/molecules-about--docs)
 
 - To check the documentation under development, do
 
