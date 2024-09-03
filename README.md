@@ -15,6 +15,7 @@ DiCria-UI Web Component Library
   <img alt="License" src="https://img.shields.io/badge/license-MIT-4e5acf">
   </a>
 </p>
+
 <p align="center">
   <a target="_blank" href="https://www.typescriptlang.org">
     <img src="https://img.shields.io/static/v1?color=blue&label=Typescript&message=TS&?style=plastic&logo=Typescript">
@@ -28,7 +29,7 @@ DiCria-UI Web Component Library
   <a target="_blank" href="https://styled-components.com/">
     <img src="https://img.shields.io/static/v1?color=pink&label=Styled&message=Components&?style=plastic&logo=StyledComponents">
 </p>
-
+---
 ## ❓ What is it?
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
