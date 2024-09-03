@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="DiCria-UI" title="#designsystem-dicria-ui" src="https://raw.githubusercontent.com/kayoennrique/DiCria-UI/main/dicrialogo.png"/>
+  <img alt="DiCria-UI" title="#designsystem-dicria-ui" src="https://raw.githubusercontent.com/kayoennrique/DiCria-UI/main/dicrialogo.png" height="150"/>
 </h1>
 
 <p align="center">
