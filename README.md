@@ -2,9 +2,9 @@
   <img alt="DiCria-UI" src="https://raw.githubusercontent.com/kayoennrique/DiCria-UI/main/dicrialogo.png" height="150"/>
 </h1>
 
-<p align="center">
+<h2 align="center">
 DiCria-UI Web Component Library
-</p>
+</h2>
 
 
 <p align="center">
