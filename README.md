@@ -1,11 +1,10 @@
 <h1 align="center">
-  <img alt="DiCria-UI" src="https://raw.githubusercontent.com/kayoennrique/DiCria-UI/main/dicrialogo.png" height="150"/>
+  <img alt="DiCria-UI" src="https://raw.githubusercontent.com/kayoennrique/DiCria-UI/main/dicrialogo2.png" height="150"/>
 </h1>
 
 <p align="center">
 DiCria-UI Web Component Library
 </p>
-
 
 <p align="center">
  <img alt="Repository size" src="https://img.shields.io/github/repo-size/kayoennrique/DiCria-UI?color=4e5acf">
