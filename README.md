@@ -2,9 +2,9 @@
   <img alt="DiCria-UI" src="https://raw.githubusercontent.com/kayoennrique/DiCria-UI/main/dicrialogo.png" height="150"/>
 </h1>
 
-<h2 align="center">
+<p align="center">
 DiCria-UI Web Component Library
-</h2>
+</p>
 
 
 <p align="center">
@@ -16,7 +16,7 @@ DiCria-UI Web Component Library
   </a>
 </p>
 
-<p align="center">
+<h2 align="center">
   <a target="_blank" href="https://www.typescriptlang.org">
     <img src="https://img.shields.io/static/v1?color=blue&label=Typescript&message=TS&?style=plastic&logo=Typescript">
   </a>
@@ -28,8 +28,7 @@ DiCria-UI Web Component Library
   </a>
   <a target="_blank" href="https://styled-components.com/">
     <img src="https://img.shields.io/static/v1?color=pink&label=Styled&message=Components&?style=plastic&logo=StyledComponents">
-</p>
-
+</h2>
 
 ## ❓ What is it?
 
