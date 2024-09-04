@@ -5,4 +5,5 @@ export type LinkProps = {
   disabled?: boolean;
   textcolorlink?: string;
   texthoverlink?: string;
+  textdecorationhoverlink?: string;
 } & React.AnchorHTMLAttributes<HTMLAnchorElement>;

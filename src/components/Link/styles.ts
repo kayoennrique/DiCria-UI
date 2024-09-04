@@ -10,7 +10,7 @@ export const StyledLink = styled.a<LinkProps>`
 
   &:hover {
     color: ${(props) => props.texthoverlink};
-    text-decoration: ${({ disabled }) => (disabled ? 'none' : 'underline')};
+    text-decoration: ${(props) => props.textdecorationhoverlink};
   }
 
   &[aria-disabled='true'] {
