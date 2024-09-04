@@ -21,6 +21,9 @@ const meta: Meta<typeof Link> = {
     texthoverlink: {
       control: "color",
     },
+    textdecorationhoverlink: {
+      type: 'string'
+    },
   },
   tags: ["autodocs"],
 }
