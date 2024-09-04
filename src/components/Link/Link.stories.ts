@@ -15,6 +15,12 @@ const meta: Meta<typeof Link> = {
     disabled: {
       type: 'boolean'
     },
+    textcolorlink: {
+      control: "color",
+    },
+    texthoverlink: {
+      control: "color",
+    },
   },
   tags: ["autodocs"],
 }
@@ -26,7 +32,7 @@ export const Primary: Story = {
   args: {
     children: 'Link',
     href: '/',
-    disabled: false
+    disabled: false,
   } as LinkProps,
 }
 

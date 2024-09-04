@@ -59,13 +59,13 @@ yarn add dicria-ui
 - Clone the repository:
 
 ```bash
-git clone https://github.com/kayoennrique/DiCria-UI-1.git
+git clone https://github.com/kayoennrique/DiCria-UI/git
 ```
 
 - Navigate to the project directory:
 
 ```bash
-cd DiCria-UI-1
+cd dicria-ui
 ```
 
 - Install dependencies:
@@ -93,6 +93,6 @@ This is the team responsible for creating this component library
 
 ## License
 
-The [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html) (GPL)
+This project is under the [MIT License](https://opensource.org/licenses/MIT).
 
 Copyright :copyright: 2024 - DiCria-UI

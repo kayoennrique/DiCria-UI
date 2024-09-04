@@ -2,15 +2,15 @@ import styled from 'styled-components';
 import { LinkProps } from './types';
 
 export const StyledLink = styled.a<LinkProps>`
-  color: ${({ disabled }) => (disabled ? '#888' : '#0d6efd')};
+  color: ${(props) => props.textcolorlink};
+  cursor: ${({ disabled }) => (disabled ? 'not-allowed' : 'pointer')};
   text-decoration: none;
   font-family: Poppins, Helvetica, "sans-serif";
   letter-spacing: 1px;
-  cursor: ${({ disabled }) => (disabled ? 'not-allowed' : 'pointer')};
 
   &:hover {
+    color: ${(props) => props.texthoverlink};
     text-decoration: ${({ disabled }) => (disabled ? 'none' : 'underline')};
-    color: ${({ disabled }) => (disabled ? '#fff' : '#2774b3')};
   }
 
   &[aria-disabled='true'] {
