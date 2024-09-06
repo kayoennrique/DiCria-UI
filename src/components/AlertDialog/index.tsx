@@ -23,6 +23,7 @@ const AlertDialog = ({
     separatorwidth,
     flexdirection,
     alignitems,
+    fontfamily,
     gap,
     onClose,
     justifycontent,
@@ -45,6 +46,7 @@ const AlertDialog = ({
                 backgroundcolor={backgroundcolor}
                 borderradius={borderradius}
                 height={height}
+                fontfamily={fontfamily}
                 padding={padding}
                 width={width}
                 onClose={onClose}

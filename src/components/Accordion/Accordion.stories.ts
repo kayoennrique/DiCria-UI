@@ -1,7 +1,7 @@
 import { StoryObj, Meta } from "@storybook/react";
 
 import Accordion from "./index";
-import { AccordionProps, Data } from "./types";
+import { AccordionProps } from "./types"; 
 
 const meta: Meta<typeof Accordion> = {
   component: Accordion,
@@ -13,7 +13,7 @@ export default meta;
 
 type Story = StoryObj<typeof Accordion>;
 
-const data: Data = [
+const data = [
   {
     id: 1,
     title: "Header I",

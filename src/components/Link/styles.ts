@@ -5,7 +5,7 @@ export const StyledLink = styled.a<LinkProps>`
   color: ${(props) => props.textcolorlink};
   cursor: ${({ disabled }) => (disabled ? 'not-allowed' : 'pointer')};
   text-decoration: none;
-  font-family: Poppins, Helvetica, "sans-serif";
+  font-family: ${(props) => props.fontfamily};
   letter-spacing: 1px;
 
   &:hover {

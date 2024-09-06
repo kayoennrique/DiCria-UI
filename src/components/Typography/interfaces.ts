@@ -6,5 +6,6 @@ export interface TypographyProps extends ComponentProps<'p'>, Record<string, unk
   color?: string;
   fontweight?: string;
   textdecoration?: string;
+  fontfamily?: string;
   as?: ElementType;
 }

@@ -19,7 +19,6 @@ export const Bar = styled.div<SeparatorProps>`
 `;
 
 export const Content = styled.div`
-  font-family: Poppins, Helvetica, "sans-serif";
   padding: 0 10px; 
   color: ${(props) => props.color || 'inherit'}; 
   white-space: nowrap;

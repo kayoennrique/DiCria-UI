@@ -17,4 +17,6 @@ export type TabProps = {
   height?: string
   alignitems?: string
   active?: boolean
+  fontfamily?:string;
+  fontfamilylist?:string
 } & React.HTMLAttributes<HTMLDivElement>;

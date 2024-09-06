@@ -7,6 +7,9 @@ const meta: Meta<typeof DropDown> = {
   title: "Design System/DropDown",
   component: DropDown,
   argTypes: {
+    fontfamily: {
+      type: "string",
+    },
   },
   tags: ["autodocs"],
 };

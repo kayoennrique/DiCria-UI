@@ -7,7 +7,7 @@ export const TagStyled = styled.div<TagProps>`
   align-items: center; 
   font-weight: ${(props) => props.fontweight};
   font-size: ${(props) => props.fontsize};
-  font-family: Poppins, Helvetica, "sans-serif";
+  font-family: ${(props) => props.fontfamily};
   border-radius: .5rem;
   border: 1px solid ${(props) => (props.active ? props.activeoutlinecolor : props.outlinecolor)};
   cursor: pointer;

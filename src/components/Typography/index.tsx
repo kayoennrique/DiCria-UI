@@ -9,6 +9,7 @@ const Typography: React.FC<TypographyProps> = ({
     color,
     fontweight,
     textdecoration,
+    fontfamily,
     as,
     ...rest
 }) => {
@@ -21,6 +22,7 @@ const Typography: React.FC<TypographyProps> = ({
                 size={size}
                 color={color}
                 fontweight={fontweight}
+                fontfamily={fontfamily}
                 textdecoration={textdecoration}
                 {...rest}
             >

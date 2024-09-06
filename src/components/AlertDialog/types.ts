@@ -40,4 +40,5 @@ export type AlertDialogProps = {
   gap?: string;
   justifycontent?: string;
   margintop?: string;
+  fontfamily?: string;
 };

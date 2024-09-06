@@ -11,6 +11,9 @@ const meta: Meta<typeof DropDownSearch> = {
     containerwidth: {
       type: "string",
     },
+    fontfamily: {
+      type: "string",
+    },
   },
   tags: ["autodocs"],
 };

@@ -10,6 +10,9 @@ const meta: Meta<typeof Typography> = {
     size: {
       type: 'string'
     },
+    fontfamily: {
+      type: 'string'
+    },
   },
   tags: ["autodocs"],
 }
@@ -36,6 +39,6 @@ export const Tertiary: StoryObj<TypographyProps> = {
   args: {
     size: '3rem',
     children: "Tertiary Text",
-    as: "h1"
+    as: "h1",
   }
 };
