@@ -33,5 +33,6 @@ export type DropdownProps = {
   hoverbgcoloritem?: string;
   paddingitem?: string;
   boxshadowbutton?: string;
+  fontfamily?: string;
 } & HTMLAttributes<HTMLDivElement> &
   SelectHTMLAttributes<HTMLDivElement>;

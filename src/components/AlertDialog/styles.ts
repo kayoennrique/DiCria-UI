@@ -10,7 +10,7 @@ export const StyledDiv = styled.div<AlertDialogProps>`
   background-color: ${(props) => props.backgroundcolor};
   border-radius: ${(props) => props.borderradius};
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.178);
-  font-family: Poppins, Helvetica, "sans-serif";
+  font-family: ${(props) => props.fontfamily};
 `;
 
 export const StyledDivButtons = styled.div<AlertDialogProps>`

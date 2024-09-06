@@ -43,7 +43,7 @@ export const DropdownMenu = styled.ul<DropdownProps>`
   margin: ${(props) => props.marginmenu || "0"};
   width: ${(props) => props.widthmenu || "31rem"};
   border-radius: ${(props) => props.borderradiusmenu || ".5rem"};
-  font-family: Poppins, Helvetica, "sans-serif";
+  font-family: ${(props) => props.fontfamily };
   font-size: 14px;
   z-index: 9999;
 `;

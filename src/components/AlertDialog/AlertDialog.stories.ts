@@ -32,6 +32,9 @@ const meta: Meta<typeof AlertDialog> = {
     margintop: {
       type: "string",
     },
+    fontfamily: {
+      type: "string",
+    },
   },
   tags: ["autodocs"],
 };

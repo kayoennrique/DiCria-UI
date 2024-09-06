@@ -10,6 +10,7 @@ const Label: React.FC<LabelProps> = ({
     fontsize,
     color,
     marginbottom,
+    fontfamily,
     ...rest
 }) => {
     return (
@@ -21,6 +22,7 @@ const Label: React.FC<LabelProps> = ({
             <S.StyledLabel
                 htmlFor={htmlFor}
                 color={color}
+                fontfamily={fontfamily}
                 fontweight={fontweight}
                 fontsize={fontsize}
                 marginbottom={marginbottom}

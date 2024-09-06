@@ -25,6 +25,7 @@ const DropDown: React.FC<DropdownProps> = ({
     paddingmenu,
     marginmenu,
     boxshadowbutton,
+    fontfamily, // Added fontfamily
     ...rest
 }) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -64,6 +65,7 @@ const DropDown: React.FC<DropdownProps> = ({
                     widthmenu={widthmenu}
                     paddingmenu={paddingmenu}
                     marginmenu={marginmenu}
+                    fontfamily={fontfamily} // Passed fontfamily
                 >
                     {sections?.map((section, sectionIndex) => (
                         <React.Fragment key={sectionIndex}>

@@ -133,6 +133,7 @@ const DropdownSearch: React.FC<DropdownSearchProps> = ({
                         hoverbgcolorremovebutton={
                             tagstyled?.tag?.hoverbgcolorremovebutton
                         }
+                        fontfamily={tagstyled?.tag?.fontfamily}  // Added fontfamily
                     />
                 ))}
                 {selectedTags.length > 0 && (

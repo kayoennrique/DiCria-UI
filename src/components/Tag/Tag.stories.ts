@@ -10,6 +10,9 @@ const meta: Meta<typeof Tag> = {
     text: {
       type: 'string'
     },
+    fontfamily: {
+      type: 'string'
+    },
   },
   tags: ["autodocs"],
 }

@@ -4,7 +4,7 @@ import { TabProps } from './types';
 export const TabContainer = styled.div<TabProps>`
   display: flex;
   flex-direction: column;
-  font-family: Poppins, Helvetica, "sans-serif";
+  font-family: ${(props) => props.fontfamily};
   align-items: ${(props) => props.alignitems};
   color: ${(props) => props.containertextcolor};
 `;
@@ -29,7 +29,7 @@ export const TabListItem = styled.li<TabProps>`
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.37);
   margin-left: 10px;
   margin-right: 10px;
-  font-family: Poppins, Helvetica, "sans-serif";
+  font-family: ${(props) => props.fontfamilylist};
   letter-spacing: 1px;
   color: ${(props) => (props.active ? '#FFF' : props.textcolor || '#000')};
 

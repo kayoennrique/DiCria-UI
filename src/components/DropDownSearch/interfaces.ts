@@ -11,6 +11,7 @@ export interface DropdownSearchProps
   icon?: React.ReactNode;
   hideinputonselect?: boolean;
   fontsizeclearall?: string;
+  fontfamily?: string;
 }
 
 export interface DropdownSearchInputTagProps {
@@ -53,4 +54,5 @@ export interface TagProps {
   removable?: boolean;
   marginleftremovebutton?: string;
   hoverbgcolorremovebutton?: string;
+  fontfamily?: string;
 }

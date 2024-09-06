@@ -55,7 +55,7 @@ export const ExistingTag = styled(Tag)<TagProps>`
   display: ${(props) => props.display || "flex"};
   font-weight: ${(props) => props.fontweight};
   font-size: ${(props) => props.fontsizetag || "12px"};
-  font-family: Poppins, Helvetica, "sans-serif";
+  font-family: ${(props) => props.fontfamily };
   border-radius: 0.5rem;
   border: none;
   transition: background-color 0.3s ease;
@@ -135,7 +135,6 @@ export const ArrowIconWrapper = styled.span`
 
 export const List = styled.ul`
   position: absolute;
-  font-family: Poppins, Helvetica, "sans-serif";
   width: 100%;
   max-height: 9.375rem;
   overflow-y: auto;

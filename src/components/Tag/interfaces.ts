@@ -22,4 +22,5 @@ export interface TagProps extends React.HTMLAttributes<HTMLDivElement> {
   removable?: boolean;
   marginleftremovebutton?: string;
   hoverbgcolorremovebutton?: string;
+  fontfamily?: string;
 }

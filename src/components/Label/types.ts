@@ -7,4 +7,5 @@ export type LabelProps = {
   color?: string;
   fontsize?: string;
   marginbottom?: string;
+  fontfamily?:string;
 } & React.LabelHTMLAttributes<HTMLLabelElement>;

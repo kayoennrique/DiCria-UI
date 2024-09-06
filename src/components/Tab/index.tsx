@@ -13,7 +13,9 @@ const Tab: React.FC<TabProps & React.HTMLAttributes<HTMLDivElement>> = ({
     width,
     height,
     alignitems,
+    fontfamilylist,
     active: initialActive = true,
+    fontfamily,
     ...rest
 }) => {
     const [activeTab, setActiveTab] = useState(0);
@@ -25,6 +27,7 @@ const Tab: React.FC<TabProps & React.HTMLAttributes<HTMLDivElement>> = ({
                 tabs={tabs}
                 containertextcolor={containertextcolor}
                 alignitems={alignitems}
+                fontfamily={fontfamily} // Passed fontfamily
                 {...rest}
             >
                 <S.TabList>
@@ -39,13 +42,16 @@ const Tab: React.FC<TabProps & React.HTMLAttributes<HTMLDivElement>> = ({
                             textcolor={listitemtextcolor}
                             height={height}
                             width={width}
+                            fontfamilylist={fontfamilylist} // Passed fontfamily
                             onClick={() => setActiveTab(index)}
                         >
                             {tab.title}
                         </S.TabListItem>
                     ))}
                 </S.TabList>
-                <S.TabContent>{tabs[activeTab].content}</S.TabContent>
+                <S.TabContent > 
+                    {tabs[activeTab].content}
+                </S.TabContent>
             </S.TabContainer>
         </StyleSheetManager>
     );

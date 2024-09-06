@@ -21,6 +21,7 @@ const Tag: React.FC<TagProps> = ({
     fontsize,
     fontweight,
     icon,
+    fontfamily,
     removable = false,
     onRemove,
     marginleftremovebutton,
@@ -70,6 +71,7 @@ const Tag: React.FC<TagProps> = ({
                 padding={padding}
                 fontsize={fontsize}
                 fontweight={fontweight}
+                fontfamily={fontfamily}
                 text={text}
             >
                 <span>
