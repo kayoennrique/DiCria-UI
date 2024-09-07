@@ -26,6 +26,12 @@ const meta: Meta<typeof Link> = {
     },
   fontfamily: {
       type: 'string'
+    },
+    bgcolorbr: {
+      type: 'string'
+    },
+    borderadius: {
+      type: 'string'
     }
   },
   tags: ["autodocs"],
