@@ -7,4 +7,6 @@ export type LinkProps = {
   texthoverlink?: string;
   textdecorationhoverlink?: string;
   fontfamily?: string;
+  bgcolorbr?: string;
+  borderadius?: string;
 } & React.AnchorHTMLAttributes<HTMLAnchorElement>;

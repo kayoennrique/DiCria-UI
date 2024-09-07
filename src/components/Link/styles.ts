@@ -7,6 +7,8 @@ export const StyledLink = styled.a<LinkProps>`
   text-decoration: none;
   font-family: ${(props) => props.fontfamily};
   letter-spacing: 1px;
+  border-radius: ${(props) => props.borderadius};
+  background-color: ${(props) => props.bgcolorbr};
 
   &:hover {
     color: ${(props) => props.texthoverlink};
