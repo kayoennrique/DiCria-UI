@@ -1,5 +1,5 @@
 export interface SeparatorVerticalProps {
   height?: string;
   width?: string;
-  color?: string;
+  bgcolor?: string;
 }
