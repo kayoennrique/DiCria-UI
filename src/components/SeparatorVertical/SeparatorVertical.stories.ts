@@ -12,7 +12,7 @@ const meta: Meta<typeof SeparatorVertical> = {
     width: {
       type: "string",
     },
-    color: {
+    bgcolor: {
       type: "string",
     },
   },

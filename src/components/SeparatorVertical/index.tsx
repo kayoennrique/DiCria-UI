@@ -6,11 +6,17 @@ import { StyleSheetManager } from "styled-components";
 const SeparatorVertical: React.FC<SeparatorVerticalProps> = ({
   height,
   width,
-  color,
+  bgcolor,
+  ...rest
 }) => {
   return (
     <StyleSheetManager shouldForwardProp={(prop) => prop !== "bgcolor"}>
-      <S.SeparatorVertical height={height} width={width} color={color} />
+      <S.SeparatorVertical
+        height={height}
+        width={width}
+        bgcolor={bgcolor}
+        {...rest}
+      />
     </StyleSheetManager>
   );
 };

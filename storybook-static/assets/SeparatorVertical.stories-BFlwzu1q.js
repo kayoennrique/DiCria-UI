@@ -1,3 +1,0 @@
-import{S as o}from"./index-BJ7J9z7q.js";import"./jsx-runtime-DEdD30eg.js";import"./index-RYns6xqu.js";import"./styled-components.browser.esm-DDAiM4bh.js";const m={title:"Design System/SeparatorVertical",component:o,argTypes:{height:{type:"string"},width:{type:"string"},color:{type:"string"}},tags:["autodocs"]},r={args:{}};var t,a,e;r.parameters={...r.parameters,docs:{...(t=r.parameters)==null?void 0:t.docs,source:{originalSource:`{
-  args: ({} as SeparatorVerticalProps)
-}`,...(e=(a=r.parameters)==null?void 0:a.docs)==null?void 0:e.source}}};const n=["Primary"];export{r as Primary,n as __namedExportsOrder,m as default};
