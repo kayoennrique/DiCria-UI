@@ -46,6 +46,9 @@ export { type ProgressBarProps } from "./ProgressBar/types";
 export { default as Separator } from "./Separator";
 export { type SeparatorProps } from "./Separator/types";
 
+export { default as SeparatorVertical } from "./SeparatorVertical";
+export { type SeparatorVerticalProps } from "./SeparatorVertical/interfaces";
+
 export { default as Tab } from "./Tab";
 export { type TabProps } from "./Tab/types";
 
