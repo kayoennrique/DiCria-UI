@@ -23,5 +23,9 @@ export default meta;
 type Story = StoryObj<typeof SeparatorVertical>;
 
 export const Primary: Story = {
-  args: {} as SeparatorVerticalProps,
+  args: {
+    width: "3px",
+    height: "150px",
+    bgcolor: "#480855",
+  } as SeparatorVerticalProps,
 };
