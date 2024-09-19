@@ -9,7 +9,8 @@ const Accordion = ({
   activeIndex,
   width,
   fontfamily,
-  fontfamilycontent
+  fontfamilycontent,
+  ...rest
 }: AccordionProps) => {
   const [isActive, setIsActive] = useState<number[]>([]);
 
@@ -32,7 +33,7 @@ const Accordion = ({
   }, [activeIndex]);
 
   return (
-    <S.Accordion>
+    <S.Accordion {...rest}>
       {data.map((accordion, index) => (
         <S.AccordionTab key={index} width={width}>
           <S.AccordionHeader 
