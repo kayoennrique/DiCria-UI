@@ -1,7 +1,7 @@
 import { StoryObj, Meta } from "@storybook/react";
 
 import Accordion from "./index";
-import { AccordionProps } from "./types"; 
+import { AccordionProps } from "./types";
 
 const meta: Meta<typeof Accordion> = {
   component: Accordion,
@@ -36,6 +36,7 @@ const data = [
 
 export const Base: Story = {
   args: {
+    bgcolor: "#fff",
     data: data,
   } as AccordionProps,
 };
