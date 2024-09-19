@@ -9,12 +9,13 @@ export type AccordionItem = {
 };
 
 export type AccordionProps = {
-  data: AccordionItem[];
+  data?: AccordionItem[];
   multiple?: boolean;
   activeIndex?: number;
   width?: string;
-  fontfamily?: string; 
-  fontfamilycontent?: string; 
+  fontfamily?: string;
+  fontfamilycontent?: string;
+  bgcolor?: string;
 };
 
 export type AccordionStyleProps = {

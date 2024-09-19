@@ -3,15 +3,16 @@ import {
   AccordionHeaderProps,
   AccordionContentProps,
   AccordionStyleProps,
+  AccordionProps,
 } from "./types";
 
-export const Accordion = styled.div`
+export const Accordion = styled.div<AccordionProps>`
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
   padding: 10px;
-  background: white;
+  background: ${(props) => props.bgcolor};
   width: 100%;
 `;
 
@@ -19,7 +20,7 @@ export const AccordionTab = styled.div<AccordionStyleProps>`
   width: ${(props) => (props.width ? props.width : "100%")};
   border: 1px solid #e5e7eb;
   border-radius: 5px;
-  background: #f9fafb;
+  background: black;
 `;
 
 export const AccordionHeader = styled.div<AccordionHeaderProps>`
