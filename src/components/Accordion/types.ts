@@ -13,9 +13,18 @@ export type AccordionProps = {
   multiple?: boolean;
   activeIndex?: number;
   width?: string;
-  fontfamily?: string;
+  fontfamilyheader?: string;
   fontfamilycontent?: string;
   bgcolor?: string;
+  bgcolorheader?: string;
+  textcolorheader?: string;
+  bgcolorheaderhover?: string;
+  textcolorheaderhover?: string;
+  bgcolorcontent?: string;
+  fontsizecontent?: string;
+  fontsizeheader?: string;
+  fontweightheader?: string;
+  fontweightcontent?: string;
 } & HTMLAttributes<HTMLDivElement>;
 
 export type AccordionStyleProps = {
