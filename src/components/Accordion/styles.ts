@@ -42,4 +42,5 @@ export const AccordionContent = styled.div<AccordionProps>`
   font-weight: ${(props) => props.fontweightcontent};
   font-size: ${(props) => props.fontsizecontent};
   font-family: ${(props) => props.fontfamilycontent};
+  color: ${(props) => props.textcolorcontent};
 `;
