@@ -8,9 +8,18 @@ const Accordion = ({
   multiple,
   activeIndex,
   width,
-  fontfamily,
+  fontfamilyheader,
   fontfamilycontent,
   bgcolor,
+  bgcolorheader,
+  textcolorheader,
+  bgcolorheaderhover,
+  textcolorheaderhover,
+  bgcolorcontent,
+  fontsizecontent,
+  fontsizeheader,
+  fontweightheader,
+  fontweightcontent,
   ...rest
 }: AccordionProps) => {
   const [isActive, setIsActive] = useState<number[]>([]);
@@ -39,7 +48,13 @@ const Accordion = ({
         <S.AccordionTab key={index} width={width}>
           <S.AccordionHeader
             onClick={() => handleClick(index)}
-            fontfamily={fontfamily} // Pass the fontfamily prop here
+            fontfamilyheader={fontfamilyheader}
+            bgcolorheader={bgcolorheader}
+            textcolorheader={textcolorheader}
+            bgcolorheaderhover={bgcolorheaderhover}
+            textcolorheaderhover={textcolorheaderhover}
+            fontsizeheader={fontsizeheader}
+            fontweightheader={fontweightheader}
           >
             {accordion.title}
 
@@ -48,7 +63,10 @@ const Accordion = ({
 
           {isActive.includes(index) && (
             <S.AccordionContent
-              fontfamilycontent={fontfamilycontent} // Pass the fontfamilycontent prop here
+              fontfamilycontent={fontfamilycontent}
+              bgcolorcontent={bgcolorcontent}
+              fontsizecontent={fontsizecontent}
+              fontweightcontent={fontweightcontent}
             >
               {accordion.children}
             </S.AccordionContent>
