@@ -33,7 +33,7 @@ export type AccordionStyleProps = {
 
 export interface AccordionHeaderProps
   extends React.HTMLAttributes<HTMLDivElement> {
-  fontfamily?: string;
+  fontfamilyheader?: string;
 }
 
 export interface AccordionContentProps
