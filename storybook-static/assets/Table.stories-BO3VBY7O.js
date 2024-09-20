@@ -1,6 +1,0 @@
-import{T as t}from"./index-BODrIs9j.js";import"./jsx-runtime-DEdD30eg.js";import"./index-RYns6xqu.js";import"./styled-components.browser.esm-DDAiM4bh.js";import"./index-BtBhN9iG.js";const d={title:"Design System/Table",component:t,argTypes:{bgzebracolor:{type:"string"},bordercollapse:{type:"string"},bgcolor:{type:"string"},paddingrows:{type:"string"},fontsizecolumn:{type:"string"},fontsizerow:{type:"string"}},tags:["autodocs"]},n=[{id:1,name:"João",age:25},{id:2,name:"Maria",age:30},{id:3,name:"Pedro",age:40},{id:4,name:"Ana",age:35},{id:5,name:"Lucas",age:28}],c=[{key:"id",header:"ID",bgcolumncolor:"#84B8FF",textcolumncolor:"#1E293B",widthpercentage:"10%",aligncolumn:"center",alignrow:"center"},{key:"name",header:"Name",bgcolumncolor:"#84B8FF",textcolumncolor:"#1E293B",widthpercentage:"40%",aligncolumn:"left",alignrow:"left"},{key:"age",header:"Age",bgcolumncolor:"#84B8FF",textcolumncolor:"#1E293B",widthpercentage:"50%",aligncolumn:"center",alignrow:"center"}],e={args:{data:n,columns:c}};var o,r,a;e.parameters={...e.parameters,docs:{...(o=e.parameters)==null?void 0:o.docs,source:{originalSource:`{
-  args: ({
-    data: data,
-    columns: columns
-  } as TableProps)
-}`,...(a=(r=e.parameters)==null?void 0:r.docs)==null?void 0:a.source}}};const p=["Primary"];export{e as Primary,p as __namedExportsOrder,d as default};
