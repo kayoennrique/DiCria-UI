@@ -20,6 +20,7 @@ const Accordion = ({
   fontsizeheader,
   fontweightheader,
   fontweightcontent,
+  textcolorcontent,
   ...rest
 }: AccordionProps) => {
   const [isActive, setIsActive] = useState<number[]>([]);
@@ -67,6 +68,7 @@ const Accordion = ({
               bgcolorcontent={bgcolorcontent}
               fontsizecontent={fontsizecontent}
               fontweightcontent={fontweightcontent}
+              textcolorcontent={textcolorcontent}
             >
               {accordion.children}
             </S.AccordionContent>

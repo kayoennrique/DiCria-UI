@@ -20,6 +20,7 @@ export type AccordionProps = {
   textcolorheader?: string;
   bgcolorheaderhover?: string;
   textcolorheaderhover?: string;
+  textcolorcontent?: string;
   bgcolorcontent?: string;
   fontsizecontent?: string;
   fontsizeheader?: string;
