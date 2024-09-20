@@ -12,7 +12,7 @@ export const Accordion = styled.div<AccordionProps>`
   align-items: center;
   gap: 10px;
   padding: 10px;
-  background: ${(props) => props.bgcolor};
+  background-color: ${(props) => props.bgcolor};
   width: 100%;
 `;
 

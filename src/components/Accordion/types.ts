@@ -1,4 +1,4 @@
-import React from "react";
+import React, { HTMLAttributes } from "react";
 
 export type AccordionItem = {
   id?: number;
@@ -6,7 +6,7 @@ export type AccordionItem = {
   children: React.ReactNode;
   fontfamily?: string;
   fontfamilycontent?: string;
-};
+} & HTMLAttributes<HTMLDivElement>;
 
 export type AccordionProps = {
   data?: AccordionItem[];
@@ -16,16 +16,18 @@ export type AccordionProps = {
   fontfamily?: string;
   fontfamilycontent?: string;
   bgcolor?: string;
-};
+} & HTMLAttributes<HTMLDivElement>;
 
 export type AccordionStyleProps = {
   width?: string | number;
-};
+} & HTMLAttributes<HTMLDivElement>;
 
-export interface AccordionHeaderProps {
+export interface AccordionHeaderProps
+  extends React.HTMLAttributes<HTMLDivElement> {
   fontfamily?: string;
 }
 
-export interface AccordionContentProps {
+export interface AccordionContentProps
+  extends React.HTMLAttributes<HTMLDivElement> {
   fontfamilycontent?: string;
 }
