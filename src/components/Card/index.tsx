@@ -12,6 +12,7 @@ const Card = ({
     titlecolor,
     textcolor,
     width,
+    height,
     padding,
     borderradius,
     sizetitle,
@@ -19,14 +20,21 @@ const Card = ({
     serparatorheight,
     serparatorwidth,
     serparatorcolor,
+    border,
+    boxshadow,
+    ...rest
 }: CardProps) => {
     return (
         <S.CardContainer
             width={width}
+            height={height}
             borderradius={borderradius}
             padding={padding}
             bgcolor={bgcolor}
             cards={cards}
+            border={border}
+            boxshadow={boxshadow}
+            {...rest}
         >
             <Typography as="h1" size={sizetitle} color={titlecolor}>
                 {title}
