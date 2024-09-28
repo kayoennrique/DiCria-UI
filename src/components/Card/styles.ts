@@ -1,22 +1,18 @@
-import styled from 'styled-components';
-import { CardProps } from './interface';
+import styled from "styled-components";
+import { CardProps } from "./interface";
 
 export const CardContainer = styled.div<CardProps>`
-    background-color: ${(props) => (props.bgcolor)};
-    color: ${(props) => (props.color)};
-    border-radius: ${(props) => (props.borderradius)};
-    border: 1px solid #6284FD;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: ${(props) => (props.padding)};
-    width: ${(props) => (props.width)};
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    li {
-
-        }
-
+    background-color: ${(props) => props.bgcolor};
+    color: ${(props) => props.color};
+    width: ${(props) => props.width};
+    height: ${(props) => props.height};
+    border: ${(props) => props.border};
+    border-radius: ${(props) => props.borderradius};
+    box-shadow: ${(props) => props.boxshadow};
+    padding: ${(props) => props.padding};
 `;
 
 export const CardList = styled.ul`
@@ -27,17 +23,17 @@ export const CardList = styled.ul`
     flex-direction: column;
     align-items: start;
     width: 100%;
-`
+`;
 
 export const CardItems = styled.li`
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 50px;
-        line-height: 1.5;
-        margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    line-height: 1.5;
+    margin-bottom: 4px;
 
-        p {
-            margin-left: 16px;
-        }
-`
+    p {
+        margin-left: 16px;
+    }
+`;
