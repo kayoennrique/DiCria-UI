@@ -17,6 +17,10 @@ const Button = ({
     boxshadowbutton,
     textdecoration,
     textcolorhover,
+    borderadius,
+    fontsize,
+    fontfamily,
+    isblock,
     ...rest
 }: ButtonProps) => {
     return (
@@ -33,6 +37,10 @@ const Button = ({
                 widthbutton={widthbutton}
                 paddingbutton={paddingbutton}
                 fontweightbutton={fontweightbutton}
+                fontsize={fontsize}
+                fontfamily={fontfamily}
+                isblock={isblock}
+                borderadius={borderadius}
                 {...rest}
             >
                 {icon && <span>{icon}</span>}
