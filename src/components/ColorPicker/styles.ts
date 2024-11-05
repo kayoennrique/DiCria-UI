@@ -9,7 +9,7 @@ export const ColorInput = styled.input<ColorPickerProps>`
   cursor: pointer;
   border-radius: ${(props) => props.borderradius || "50%"};
   appearance: none;
-  background-color: ${(props) => props.backgroundcolor || "transparent"};
+  background-color: ${(props) => props.backgroundcolor};
 
   &::-webkit-color-swatch-wrapper {
     padding: 0;
