@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import * as S from "./styles";
 import { AccordionProps } from "./types";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import { StyleSheetManager } from "styled-components";
 
 const Accordion = ({
   data,
@@ -44,6 +45,22 @@ const Accordion = ({
   }, [activeIndex]);
 
   return (
+    <StyleSheetManager
+    shouldForwardProp={(prop) =>
+        ![
+            "bgcolor",
+            "bgcolorheader",
+            "textcolorheader",
+            "fontsizeheader",
+            "fontweightheader",
+            "bgcolorcontent",
+            "fontfamilycontent",
+            "textcolorcontent",
+            "fontfamilyheader",
+        ].includes(prop)
+    }
+>
+
     <S.Accordion bgcolor={bgcolor} {...rest}>
       {data?.map((accordion, index) => (
         <S.AccordionTab key={index} width={width}>
@@ -56,7 +73,7 @@ const Accordion = ({
             textcolorheaderhover={textcolorheaderhover}
             fontsizeheader={fontsizeheader}
             fontweightheader={fontweightheader}
-          >
+            >
             {accordion.title}
 
             {isActive.includes(index) ? <IoIosArrowUp /> : <IoIosArrowDown />}
@@ -64,10 +81,10 @@ const Accordion = ({
 
           {isActive.includes(index) && (
             <S.AccordionContent
-              fontfamilycontent={fontfamilycontent}
-              bgcolorcontent={bgcolorcontent}
-              fontsizecontent={fontsizecontent}
-              fontweightcontent={fontweightcontent}
+            fontfamilycontent={fontfamilycontent}
+            bgcolorcontent={bgcolorcontent}
+            fontsizecontent={fontsizecontent}
+            fontweightcontent={fontweightcontent}
               textcolorcontent={textcolorcontent}
             >
               {accordion.children}
@@ -76,6 +93,7 @@ const Accordion = ({
         </S.AccordionTab>
       ))}
     </S.Accordion>
+      </StyleSheetManager>
   );
 };
 
