@@ -1,0 +1,15 @@
+{
+  "editor.fontSize": 12,
+  "editor.tabSize": 2,
+  "git.autofetch": true,
+  "terminal.integrated.fontSize": 16,
+  "redhat.telemetry.enabled": true,
+  "thunder-client.requestLayout": "Top/Bottom",
+  "workbench.startupEditor": "none",
+  "editor.wordWrap": "on",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.zoomLevel": 0,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+}
