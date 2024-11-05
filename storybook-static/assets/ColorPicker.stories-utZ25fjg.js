@@ -1,0 +1,3 @@
+import{C as s}from"./index-in3YRIMZ.js";import"./jsx-runtime-CkxqCPlQ.js";import"./index-DJO9vBfz.js";import"./styled-components.browser.esm-WJtJfqrr.js";const p={title:"Design System/ColorPicker",component:s,argTypes:{onChange:{action:"changed"},width:{type:"string"},height:{type:"string"},backgroundcolor:{type:"string"},border:{type:"string"},borderradius:{type:"string"}},tags:["autodocs"]},r={args:{}};var o,e,t;r.parameters={...r.parameters,docs:{...(o=r.parameters)==null?void 0:o.docs,source:{originalSource:`{
+  args: {} as ColorPickerProps
+}`,...(t=(e=r.parameters)==null?void 0:e.docs)==null?void 0:t.source}}};const g=["Primary"];export{r as Primary,g as __namedExportsOrder,p as default};
