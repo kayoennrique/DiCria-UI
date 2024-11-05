@@ -19,6 +19,9 @@ export { type CheckboxProps } from "./CheckBox/types";
 export { default as DatePicker } from "./DatePicker";
 export { type DatePickerProps } from "./DatePicker/types";
 
+export { default as ColorPicker } from "./ColorPicker";
+export { type ColorPickerProps } from "./ColorPicker/type";
+
 export { default as DropDown } from "./DropDown";
 export { type DropdownProps } from "./DropDown/types";
 
