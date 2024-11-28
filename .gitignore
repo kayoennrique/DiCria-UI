@@ -22,7 +22,7 @@ package-lock.json
 vite.config.ts.timestamp-1710457216905-cc0261fe83b1c.mjs
 
 # Editor directories and files
-.vscode/*
+.vscode
 !.vscode/extensions.json
 .idea
 .DS_Store
