@@ -33,6 +33,15 @@ const meta: Meta<typeof Input> = {
     paddingleft: {
       type: "string"
     },
+    color: {
+      type: "string"
+    },
+    outlinefocus: {
+      type: "string"
+    },
+    outlineinput: {
+      type: "string"
+    }
   },
   tags: ["autodocs"],
 }

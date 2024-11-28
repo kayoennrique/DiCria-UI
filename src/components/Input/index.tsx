@@ -43,21 +43,21 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
                 <S.InputContainer paddingleft={paddingleft}>
                     {icon && <span>{icon}</span>}
                     <S.InputStyled
-                        value={value}
-                        onChange={onChange}
-                        id={id}
-                        type={type}
-                        color={color}
                         backgroundcolor={backgroundcolor}
+                        disabledbgcolor={disabledbgcolor}
+                        placeholdercolor={placeholdercolor}
                         borderradius={borderradius}
                         padding={padding}
                         border={border}
                         width={width}
+                        placeholder={placeholder}
+                        color={color}
                         outlineinput={outlineinput}
                         outlinefocus={outlinefocus}
-                        disabledbgcolor={disabledbgcolor}
-                        placeholder={placeholder}
-                        placeholdercolor={placeholdercolor}
+                        value={value}
+                        onChange={onChange}
+                        id={id}
+                        type={type}
                         {...rest}
                         ref={ref}
                     />
