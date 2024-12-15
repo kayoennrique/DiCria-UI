@@ -1,4 +1,4 @@
-import{j as t}from"./jsx-runtime-CkxqCPlQ.js";import{d as a}from"./styled-components.browser.esm-WJtJfqrr.js";import{T as o}from"./index-BByzK5B4.js";const m=a.table`
+import{j as t}from"./jsx-runtime-CkxqCPlQ.js";import{d as a}from"./styled-components.browser.esm-WJtJfqrr.js";import{T as o}from"./index-BYyzhH01.js";const m=a.table`
   width: 100%;
   border-collapse: ${e=>e.$bordercollapse||"collapse"};
   background-color: ${e=>e.$bgcolor||"#F8FAFC"};

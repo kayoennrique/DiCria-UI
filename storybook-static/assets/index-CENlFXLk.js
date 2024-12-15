@@ -1,4 +1,4 @@
-import{j as o}from"./jsx-runtime-CkxqCPlQ.js";import{r as i}from"./index-DJO9vBfz.js";import{d as r,Y as w}from"./styled-components.browser.esm-WJtJfqrr.js";import{T as m}from"./index-BByzK5B4.js";import{a as R}from"./index-CcZkhzg9.js";import{S as C}from"./index-CnQs79DV.js";const $=r.div`
+import{j as o}from"./jsx-runtime-CkxqCPlQ.js";import{r as i}from"./index-DJO9vBfz.js";import{d as r,Y as w}from"./styled-components.browser.esm-WJtJfqrr.js";import{T as m}from"./index-BYyzhH01.js";import{a as R}from"./index-CcZkhzg9.js";import{S as C}from"./index-CnQs79DV.js";const $=r.div`
     position: fixed;
     bottom: 20px;
     left: 50%;

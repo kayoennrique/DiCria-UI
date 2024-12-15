@@ -1,4 +1,4 @@
-import{j as r}from"./jsx-runtime-CkxqCPlQ.js";import{S as p}from"./index-CnQs79DV.js";import{T as i}from"./index-BByzK5B4.js";import{d as t}from"./styled-components.browser.esm-WJtJfqrr.js";const C=t.div`
+import{j as r}from"./jsx-runtime-CkxqCPlQ.js";import{S as p}from"./index-CnQs79DV.js";import{T as i}from"./index-BYyzhH01.js";import{d as t}from"./styled-components.browser.esm-WJtJfqrr.js";const C=t.div`
     display: flex;
     flex-direction: column;
     align-items: center;
